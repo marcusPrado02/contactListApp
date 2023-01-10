@@ -5,7 +5,11 @@ export interface Props {
 const Footer = (props: Props) => {
   return (
     <>
-      <footer className="text-red-300">Esse é o footer da aplicação</footer>
+      <footer className="absolute inset-x-0 bottom-0 text-center text-white bg-blue-700">
+        <div className="text-center p-4 bg-blue-700 ">
+          © 2022 Copyright: Marcus Prado Silva
+        </div>
+      </footer>
     </>
   );
 };
